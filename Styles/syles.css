@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 body{
-    width: 100vw;
+    width: 97vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,4 +9,23 @@ body{
 }
 .container{
     width: 1300px;
+}
+
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 900px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 500px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 300px;
+    }
+
 }

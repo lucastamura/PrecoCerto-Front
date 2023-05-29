@@ -51,3 +51,26 @@ header{
     border: 2.5px solid var(--color-one);
     color: var(--color-one);
 }
+
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 900px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 500px;
+        margin: 0 16px;
+    }
+    .header{
+        margin: 0 16px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .anchor-nave-header{
+        display: none;
+    }
+
+}

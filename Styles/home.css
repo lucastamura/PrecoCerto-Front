@@ -1,4 +1,4 @@
-section{
+#home{
     display: flex;
     justify-content: center;
     height: 80vh;
@@ -78,4 +78,26 @@ section{
 .button-cadastro:hover{
     font-weight: 700;
     color: var(--gray-200);
+}
+
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 900px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .image-home{
+        display:none;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .elipse{
+        width: 100%;
+    }
+    .title-home{
+        margin-top: -32px;
+    }
+
 }
