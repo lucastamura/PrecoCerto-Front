@@ -8,8 +8,10 @@
     <title>Preço Certo</title>
 </head>
 <body>
-    <header>
-        <div class="container header">
+    <!-- <header>
+
+
+        <!-- <div class="container header">
             <a href="./index.html" class="anchor-header">
                 <img src="./Assets/Icons/logo.svg" alt="">
             </a>
@@ -20,7 +22,36 @@
                 <a href="./HTML/login.html" class="button-login">Login</a>
             </nav>
         </div>
+    </header> -->
+    
+    
+    <header>
+        <!-- Logo e navegaçãp -->
+        <nav class="containerNav">
+            <div class="menu">
+                <img src="./Assets/Icons/logo.svg" alt="">
+                <div class="menuMobile">
+                    <a href="javascript:void(0);" class="icon-mobile" id="mIco">
+                        <img src="./Assets/Icons/icon-header-mobile.svg" alt="" class="material-icons icon" id="menu">
+                    </a>
+                </div>
+                <div class="menuGrande">
+                    <a href="./HTML/sobre.html" class="anchor-nave-header">Sobre Nós</a>
+                    <a href="./HTML/servicos.html" class="anchor-nave-header">Serviços</a>
+                    <span class="anchor-nave-header">|</span>
+                    <a href="./HTML/login.html" class="button-login">Login</a>
+                </div>
+            </div>
+            <div class="menuMobileExpandidon" id="mostraOpMobile">
+                <a href="./HTML/sobre.html" class="anchor-nave-header">Sobre Nós</a>
+                <a href="./HTML/servicos.html" class="anchor-nave-header">Serviços</a>
+                <a href="./HTML/login.html" class="button-login">Login</a>
+            </div>
+        </nav>
     </header>
+
+    
+    
     <section id="home">
         <div class="container home">
 
@@ -38,5 +69,7 @@
             <img src="./Assets/Images/image-home.svg" alt="" class="image-home">
         </div>
     </section>
+
+    <script src='./Scripts/nav.js'></script>
 </body>
 </html>
