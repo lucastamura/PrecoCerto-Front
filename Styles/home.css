@@ -79,6 +79,9 @@
     font-weight: 700;
     color: var(--gray-200);
 }
+.anchor-header{
+    height: 100%;
+}
 
 @media screen and (max-width: 1300px) {
     .container{

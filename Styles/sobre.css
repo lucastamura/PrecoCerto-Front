@@ -1,14 +1,12 @@
 #sobre{
     display: flex;
     justify-content: center;
-    height: 50%;
+    height: 100% !important;
     width: 100%;
 }
 
 .sobre{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column; 
 }
 
@@ -18,6 +16,7 @@
     gap: 100px;
     width: 100%;
     justify-content: center;
+    margin-top: 32px;
 }
 
 .img-sobre{
@@ -32,7 +31,6 @@
     align-items: center;
     gap:40px;
     justify-content: center;
-    height: 600px;
     width: 552px;
 }
 
@@ -49,4 +47,43 @@
 .azul{
     color: var(--color-two);
     font-weight: 500;
+}
+
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 900px;
+    }
+
+    #sobre{
+        margin-top: 32px;
+    }
+    .img-sobre{
+        display:none;
+    }
+    .row-sobre{
+        margin-bottom: 32px;
+    }
+}
+@media screen and (max-width: 1000px) {
+
+
+}
+@media screen and (max-width: 600px) {
+    .elipse{
+        width: 100%;
+    }
+    .title-home{
+        margin-top: -32px;
+    }
+    #sobre{
+        width: 400px;
+    }
+    .texts-sobre{
+        width: 100%;
+        margin: 0 16px;
+    }
+    .row-sobre{
+        margin-bottom: 32px;
+    }
+
 }
