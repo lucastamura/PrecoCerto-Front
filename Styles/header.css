@@ -89,7 +89,7 @@ header{
         justify-content: space-between; 
         width: 800px;
         align-items: center;
-              
+        
     }
     .containerNav .menu .menuGrande {
         display: none; 
@@ -97,7 +97,7 @@ header{
     .containerNav .menu .menuMobile a { 
         display: flex; 
     } 
-
+    
 }
 
 @media screen and (max-width: 940px) {
@@ -114,7 +114,7 @@ header{
         justify-content: space-between; 
         width: 350px;
         align-items: center;
-              
+        
     }
     .containerNav{
         flex-direction: column;
@@ -123,6 +123,9 @@ header{
     .container{
         width: 500px;
         margin: 0 16px;
+    }
+    .logo-header{
+        margin-left: 8px;
     }
     .menuMobileExpandidon{
         gap: 16px;
