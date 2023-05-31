@@ -83,6 +83,13 @@
     .img-servico{
         display: none;
     }
+    .circle{
+        display: none;
+    }
+    .card{
+        width: auto;
+        margin: 24px;
+    }
 
 }
 @media screen and (max-width: 1000px) {
