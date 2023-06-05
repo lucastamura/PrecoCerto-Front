@@ -41,3 +41,31 @@
 .title-login{
     color: var(--gray-100);
 }
+
+@media screen and (max-width: 1300px) {
+    .container{
+        width: 900px;
+    }
+    .login{
+        gap: 80px;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    .container{
+        width: 500px;
+    }
+    .img-login{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 300px;
+    }
+    .input-login{
+        width: 100%;
+    }
+
+}
