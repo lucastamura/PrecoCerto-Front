@@ -1,0 +1,86 @@
+#cadastro{
+    display: flex;
+    justify-content: center;
+    height: 100% !important;
+    width: 100%;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column; 
+    width: 1120px;
+}
+
+.title-cadastro{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 84px;
+}
+
+.text-cadstro{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--gray-200);
+}
+
+.form-cadastro{
+    margin-top: 42px;
+    padding: 73px 52px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 11px -11px 10px -5px rgba(0, 0, 0, 0.04);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title-input-cadastro{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color:  var(--gray-200);
+}
+
+.input-cadastro{
+    height: 32px;
+    border: 1px solid  var(--gray-200);
+    border-radius: 9px;
+    padding: 8px;
+}
+
+.input-register{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.w288{
+    width: 288px;
+}
+.w392{
+    width: 392px;
+}
+.w601{
+    width: 601px;
+}
+.w704{
+    width: 704px;
+}
+.w601{
+    width: 601px;
+}
+
+.areacompletemento{
+    width: 704px;
+    height: 99px;
+}
