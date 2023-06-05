@@ -64,6 +64,36 @@
     gap: 8px;
 }
 
+.subtitle-cadastro{
+    color: var(--gray-200);
+    margin: 80px 0; 
+}
+.whats{
+    font-weight: 600;
+    font-size: 12px;
+    color: var(--gray-200);
+}
+
+.whatsapp{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    justify-content: flex-start;
+}
+
+.check{
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
 .w288{
     width: 288px;
 }

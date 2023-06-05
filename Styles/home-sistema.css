@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.body {
+    display: flex;
+}
+
+.container {
+    padding: 40px 42px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-home{
+    width: 400px;
+}
+
+.img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color: var(--gray-200);
+}
+
+.menu{
+    width: 325px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 24px;
+    border-right: 1px solid #C6C5CE;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    width: 257px;
+    height: 52px;
+    padding: 14px 16px;
+    transition: 0.1s;
+
+
+}
+h5{
+    color: #38B6FF;
+}   
+.green-hover{
+    opacity: 0%;
+}
+.button:hover{
+    width: 257px;
+    height: 52px;
+    border-left: 4px solid #89C400;
+    padding: 14px 12px;
+    
+
+    
+}
+
+.green-hover{
+    opacity: 100%;
+}
+
+h5{
+    color: #89C400;
+    font-weight: 600;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.logo-menu{
+    margin-bottom: 104px;
+    width: 80px;
+}
+
+.green-hover{
+    position: absolute;
+}
