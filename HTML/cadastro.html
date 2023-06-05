@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../Styles/main.css" />
     <link rel="shortcut icon" href="../Assets/Icons/favicon.png" type="image/x-icon">
     <title>Preço Certo</title>
+    <script src='../Scripts/cadastro.js'></script>
+
 </head>
 
 <body>
@@ -48,7 +50,7 @@
                 </div>
                 <img src="../Assets/Icons/logo-text.svg" alt="">
             </div>
-            <form action="" class="form-cadastro">
+            <form action="" class="form-cadastro" onsubmit="return validarCadastro()">
                 <div class="row">
                     <div class="input-register">
                         <label for="" class="title-input-cadastro w392">
@@ -166,6 +168,8 @@
                         <input type="text" class="input-cadastro w392" placeholder="(XX) XXXX-XXXX">
                     </div>
                 </div>
+                <button type="submit" class="button-acessar">Cadastrar</button>
+
                 
 
             </form>
